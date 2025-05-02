@@ -8,7 +8,7 @@ import tempfile
 st.set_page_config(page_title="QR Pass Verifier", page_icon="🔍")
 st.title("🔍 Freshers Fest QR Code Verifier")
 
-EXCEL_URL = "https://raw.githubusercontent.com/<your-username>/<your-repo-name>/main/freshers_data.xlsx"
+EXCEL_URL = "https://raw.githubusercontent.com/<tilak91>/<NYRA-SCAN>/main/freshers_data.xlsx"
 
 @st.cache_data
 def load_data_from_github():
