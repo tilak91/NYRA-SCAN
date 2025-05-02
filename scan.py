@@ -46,7 +46,7 @@ if qr_image is not None:
                 st.write(f"🎓 Roll No: **{match.iloc[0]['Roll No']}**")
                 st.write(f"🏫 Branch: **{match.iloc[0]['Branch']}**")
                 st.write(f"📅 Year: **{match.iloc[0]['Year']}**")
-                st.balloons()
+                
             else:
                 st.error("❌ Invalid Pass! Entry Denied.")
         else:
